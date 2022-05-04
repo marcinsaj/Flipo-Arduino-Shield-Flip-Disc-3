@@ -7,6 +7,7 @@
 // https://github.com/marcinsaj/Flipo-Pulse-Current-Power-Supply
 //
 // This example demonstrates how to use Arduino Shield with 4 Flipo#3 modules
+// Flip on/off all discs
 //
 // Hardware:
 // Arduino Shield Flip-disc 3
