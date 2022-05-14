@@ -104,7 +104,7 @@ void CurrentPulseON()
   digitalWrite(EN_VF, HIGH);            // Turn ON PCPS module- charging begin
 
   do {value = analogRead(FB_VF);}       // Measure the voltage of the accumulated charge
-  while (value < 500);                  // ~2.5V this voltage means that the current pulse is ready
+  while (value < 650);                  // ~3V this voltage means that the current pulse is ready
  
   digitalWrite(EN_VF, LOW);             // Turn OFF PCPS module- charging complete
 }
